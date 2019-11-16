@@ -1,0 +1,33 @@
+
+Given a MxN matrix where each element can either be 0 or 1.
+
+We need to find the shortest path between a given source cell to a destination cell.
+The path can only be created out of a cell if its value is 1.
+
+Example:
+
+  Input:
+    matrix = [[1, 0, 1, 1, 1, 1, 0, 1, 1, 1 ],
+              [1, 0, 1, 0, 1, 1, 1, 0, 1, 1 ],
+              [1, 1, 1, 0, 1, 1, 0, 1, 0, 1 ],
+              [0, 0, 0, 0, 1, 0, 0, 0, 0, 1 ],
+              [1, 1, 1, 0, 1, 1, 1, 0, 1, 0 ],
+              [1, 0, 1, 1, 1, 1, 0, 1, 0, 0 ],
+              [1, 0, 0, 0, 0, 0, 0, 0, 0, 1 ],
+              [1, 0, 1, 1, 1, 1, 0, 1, 1, 1 ],
+              [1, 1, 0, 0, 0, 0, 1, 0, 0, 1 ]]
+
+    Source = [0, 0];
+    Destination = [3, 4];
+
+  Output: Shortest Path is 11
+  Why:
+     [[1, 0, 1, 1, 1, 1, 0, 1, 1, 1 ],
+      [1, 0, 1, 0, 1, 1, 1, 0, 1, 1 ],
+      [1, 1, 1, 0, 1, 1, 0, 1, 0, 1 ],
+      [0, 0, 0, 0, 1, 0, 0, 0, 0, 1 ],
+      [1, 1, 1, 0, 1, 1, 1, 0, 1, 0 ],
+      [1, 0, 1, 1, 1, 1, 0, 1, 0, 0 ],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 1 ],
+      [1, 0, 1, 1, 1, 1, 0, 1, 1, 1 ],
+      [1, 1, 0, 0, 0, 0, 1, 0, 0, 1 ]];

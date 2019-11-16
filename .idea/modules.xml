@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/20191023_CourseOrder/20191023_CourseOrder.iml" filepath="$PROJECT_DIR$/20191023_CourseOrder/20191023_CourseOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20191106_MatrixPath/20191106_MatrixPath.iml" filepath="$PROJECT_DIR$/20191106_MatrixPath/20191106_MatrixPath.iml" />
       <module fileurl="file://$PROJECT_DIR$/20191108_BinaryGridFlip/20191108_BinaryGridFlip.iml" filepath="$PROJECT_DIR$/20191108_BinaryGridFlip/20191108_BinaryGridFlip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20191115_ClosestStore/20191115_ClosestStore.iml" filepath="$PROJECT_DIR$/20191115_ClosestStore/20191115_ClosestStore.iml" />
     </modules>
   </component>
 </project>
